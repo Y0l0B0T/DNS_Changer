@@ -37,8 +37,8 @@ goto end
 
 :shecan
 echo Setting DNS Shecan...
-netsh interface ip set dns "Ethernet" static 178.22.122.100
-netsh interface ip add dns "Ethernet" 185.51.200.2 index=2
+netsh interface ip set dns "Ethernet" static 178.22.122.101
+netsh interface ip add dns "Ethernet" 185.51.200.1 index=2
 goto end
 
 :403online
